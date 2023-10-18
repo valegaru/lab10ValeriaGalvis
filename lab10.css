@@ -1,0 +1,143 @@
+body{
+    background-color:rgb(44, 44, 44) ;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+}
+.fondobanner{
+    background: linear-gradient(rgba(0, 0, 0, .50) 8%, rgba(0, 0, 0,.50)100%);
+    background-size: cover;
+}
+#inicio{
+    background: linear-gradient(rgba(0, 0, 0, .50) 8%, rgba(0, 0, 0,.50)100%);
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+a{
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#navegacion{
+    padding: 40px;
+}
+#perfil{
+    padding-left: 1100px;
+}
+.banner{
+    padding-top: 200px;
+    margin-left: 50px;
+    margin-right: 900px;
+    padding-bottom: 30px; 
+}
+#titulo{
+    display: flex;
+    align-items: center;
+}
+#numero{
+    padding-left: 30px;
+}
+
+#botones{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.btn1 {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.25);
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 0px;
+}
+.icon1 {
+    margin-top: 11px;
+    width: 30px;
+    height: 30px;
+  }
+  .btn-text1 {
+    float: right;
+    padding-top:10px ;
+    padding-left:5px;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.btn2 {
+    margin-left: 10px;
+    cursor: pointer;
+    border: 0.5px solid white;
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.icon2 {
+    margin-top: 11px;
+    width: 30px;
+    height: 30px;
+  }
+  .btn-text2 {
+    float: right;
+    padding-top:10px ;
+    padding-left:5px;
+    padding-right: 5px;
+    letter-spacing: 0.2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+h4{
+    margin-left: 10px;
+}
+
+
+h3{
+    padding-left: 60px;;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.save{
+    padding-left: 95px;
+}
+
+
+#recommended, #week{
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-left: 60px;
+
+}
+
+.scroll{
+    margin-right: 30px;
+}
+
+.cover{
+    border-radius: 5%;
+}
